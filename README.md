@@ -5,7 +5,7 @@ Traffic forecasting is a crucial aspect of modern Intelligent Transportation Sys
 
 In response to these challenges, we present **GRAPHITE**, an innovative framework that combines Graph Neural Networks (GNNs) and Generative Adversarial Networks (GANs) to leverage generative reasoning for efficient traffic management. Our model integrates historical traffic volume data collected by road sensors with local spatial information encoded through knowledge graphs (KGs), capturing relationships between sensors and nearby points of interest (POIs).
 
-Extensive experiments conducted on diverse datasets underscore the efficacy of GRAPHITE. Notably, we achieved a maximum decrease in RMSE of **31.05%** compared to GAN-GRU and a maximum increase in **R² of 8.15%** compared to GAN-RNN, positioning GRAPHITE as a standout solution among current state-of-the-art approaches.
+Extensive experiments conducted on diverse datasets underscore the efficacy of GRAPHITE. Notably, we achieved a maximum decrease in RMSE of 31.05% compared to GAN-GRU and a maximum increase in R² of 8.15% compared to GAN-RNN, positioning GRAPHITE as a standout solution among current state-of-the-art approaches.
 
 ![Generative Architecture for Traffic Forecasting](graphite_framework.png)  
 *Figure: Architecture of the GRAPHITE framework integrating Graph Neural Networks (GNNs) and Generative Adversarial Networks (GANs) for spatio-temporal traffic forecasting. The generator combines graph-based and recurrent components, while the discriminator evaluates generated sequences against real sensor data.*
